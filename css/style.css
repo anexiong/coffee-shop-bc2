@@ -39,6 +39,10 @@ a {
   opacity: 1;
   
 }
+
+h1 {
+  color:#000000;
+}
 /* -------------------------------- 
 
 Main Components 
@@ -92,7 +96,7 @@ Main Components
 }
 .projects-container .cd-single-project::before {
   /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-  content: 'img/img-1-large';
+  content: 'img/img-1-small';
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
